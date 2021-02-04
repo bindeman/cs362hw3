@@ -17,5 +17,3 @@ def divide(a, b):
         return "undefined"
     else:
         return a/float(b)
-
-print(isLeapYear())
