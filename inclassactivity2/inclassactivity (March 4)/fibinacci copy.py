@@ -9,15 +9,8 @@ def fibonacci(val):
 
 def factorial(val):
     return n * if (val > 1) factorial(val - 1) else 1
-    
-factorial()
 
 
-n = input("Inter fibinacci year: ")
-n = int(n)
 
-print(fibonacci(n))
 
-n2 = input("Inter factorial: ")
-n2 = int(n2)
 
