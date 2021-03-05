@@ -3,7 +3,7 @@
 # Problem 2, Homework 7
 
 import unittest
-import fizzBuzz
+import leapYear
 
 class HW7TestCases(unittest.TestCase):
     def testleapYear(self):
