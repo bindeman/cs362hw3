@@ -3,4 +3,5 @@
 # Problem 1, Homework 7
 
 def fizzBuzz(n):
-    pass
+    if(n%3 == 0) return "Fizz"
+    else return pass
