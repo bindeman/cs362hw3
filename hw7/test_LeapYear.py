@@ -8,6 +8,9 @@ import leapYear
 class HW7TestCases(unittest.TestCase):
     def testleapYear(self):
         self.assertEqual(leapYear.leapYear(8), True)
+        self.assertEqual(leapYear.leapYear(400), False)
+
+        
 
 
 
