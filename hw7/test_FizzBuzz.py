@@ -10,6 +10,8 @@ class HW7TestCases(unittest.TestCase):
         self.assertEqual(fizzBuzz.fizzBuzz(3), "Fizz")
         self.assertEqual(fizzBuzz.fizzBuzz(15), "FizzBuzz")
         self.assertEqual(fizzBuzz.fizzBuzz(5), "Buzz")
+        self.assertEqual(fizzBuzz.fizzBuzz(19), "19")
+        self.assertEqual(fizzBuzz.fizzBuzz(7), "7")
 
 
 
