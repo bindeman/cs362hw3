@@ -10,4 +10,4 @@ def fizzBuzz(n):
     elif (n%5 == 0):
         return "Buzz"
     else:
-        return "todo"
+        return str(n)
