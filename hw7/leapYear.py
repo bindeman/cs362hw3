@@ -3,7 +3,7 @@
 # Problem 2, Homework 7
 
 def leapYear(n):
-    if(n % 4):
+    if(n % 4 == 0 and n % 100 != 0):
         return True
     else:
         return False
